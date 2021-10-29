@@ -71,7 +71,7 @@ func resourceDog() *schema.Resource {
 	}
 }
 ```
-The `Create()` function, creates the resource (obviously). In this example, it simply creates a file. It is important to note, that if no error is returned, Terraform asssumes everything worked. If an error is returned, it assumes it failed. 
+The `Create()` function, creates the resource (*obviously*). In this example, it simply creates a file. It is important to note, that if no error is returned, Terraform asssumes everything worked. If an error is returned, it assumes it failed. 
 
 Also, notice how the Id of the resource is set. This would be important in differentiating multiple instances of the same resource. 
 
@@ -114,7 +114,7 @@ To keep that example simple, I chose not to implement `Read()` or `Update()`.
 
 ## Deploying your Provider
 
-You need a folder to put your provider in. By convention this is in your home folder: `~/.terraform.d/plugins`. Make the folder like this (note the version and platform in the path): 
+You need a folder to put your provider in. By convention this is in your home folder: `~/.terraform.d/plugins`. Make the folder like this (*note the version and platform in the path*): 
 
 ```
 mkdir -p ~/.terraform.d/plugins/drehnstrom/providers/pets/0.0.1/darwin_amd64
