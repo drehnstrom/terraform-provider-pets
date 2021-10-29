@@ -1,4 +1,4 @@
-module drehnstrom.com/providers/terraform-provider-pets
+module terraform-provider-pets
 
 go 1.17
 
