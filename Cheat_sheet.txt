@@ -1,0 +1,13 @@
+# You need a folder to put your provider in. By convention this is in 
+# your home folder /.terraform.d/plugins
+# Need to create the folder and copy your plugin into it. 
+# The full path and version need to match the configuration in your provider configuration. 
+# See main.tf in this example. 
+
+mkdir -p ~/.terraform.d/plugins/drehnstrom/providers/pets/0.0.1/darwin_amd64
+
+# Copy your Provider into the folder created above. 
+# Note, that the compiled provider name needs to be in the format
+# terraform-provider-<PROVIDER NAME>
+
+cp terraform-provider-pets ~/.terraform.d/plugins/drehnstrom/providers/pets/0.0.1/darwin_amd64
