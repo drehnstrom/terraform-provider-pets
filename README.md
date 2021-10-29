@@ -92,7 +92,7 @@ func resourceDogCreate(d *schema.ResourceData, m interface{}) error {
 }
 ```
 
-The following function deletes the resource. As before, if everything works, return no error. 
+The following function deletes the resource. As before, if everything works, then don't return an error. 
 
 ```
 func resourceDogDelete(d *schema.ResourceData, m interface{}) error {
