@@ -148,3 +148,9 @@ resource "pets_dog" "my-dog" {
   breed    = "Schnoodle"
 }
 ```
+
+## A Good Tutorial on Creating Terraform Providers
+
+Qwiklabs has a good tutorial on creating Custom Terraform providers. See the link below:
+
+https://www.qwiklabs.com/catalog_lab/1014
