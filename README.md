@@ -110,7 +110,7 @@ func resourceDogDelete(d *schema.ResourceData, m interface{}) error {
 }
 ```
 
-To keep that example simple, I chose not to implement Read() or Update(). 
+To keep that example simple, I chose not to implement `Read()` or `Update()`. 
 
 ## Deploying your Provider
 
