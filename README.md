@@ -120,11 +120,24 @@ You need a folder to put your provider in. By convention this is in your home fo
 mkdir -p ~/.terraform.d/plugins/drehnstrom/providers/pets/0.0.1/darwin_amd64
 ```
 
+Note: If using the Linux the path above would be as follows:
+
+```
+mkdir -p ~/.terraform.d/plugins/drehnstrom/providers/pets/0.0.1/linux_amd64
+```
+
 Copy your provider into the folder. 
 
 ```
 cp terraform-provider-pets ~/.terraform.d/plugins/drehnstrom/providers/pets/0.0.1/darwin_amd64
 ```
+
+Note: If using the Linux copy the file as follows:
+
+```
+cp terraform-provider-pets ~/.terraform.d/plugins/drehnstrom/providers/pets/0.0.1/linux_amd64
+```
+
 ## Using your Provider
 
 In a Terraform file, define your module. The source and version attributes need to match the path you deployed the module into above. 
